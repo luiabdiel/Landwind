@@ -14,7 +14,7 @@ UI Clone - Landwind
 
 ![Design preview from the calculator](./assets/images/Captura%20de%20tela%202022-07-05%20013813.png)
 
-<p align="star"><a href="https://luiabdiel.github.io/Landwind/" target="_blank">Click here</a>to view it</p>
+<p align="star"><a href="https://luiabdiel.github.io/Landwind/" target="_blank">Click here</a> to view it</p>
 
 <hr>
 
