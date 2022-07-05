@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --base-color: #7e3af2;
+  --text-color: #111928;
+  --text-color-parag: #808080;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  padding-inline: 5rem;
+  padding-block: 1.5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__image {
+  margin-right: 0.75rem;
+}
+
+.logo {
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.nav__links {
+  display: flex;
+  align-items: center;
+}
+
+.nav__links ul {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav__links ul li {
+  font-weight: 700;
+}
+.nav__links ul li a {
+  display: inline-block;
+  transition: 0.1s;
+}
+
+.nav__links ul li a:hover {
+  transform: scale(1.05);
+}
+
+.btn__login {
+  font-size: 0.875rem;
+  font-weight: 700;
+
+  display: inline-block;
+  transition: 0.1s;
+}
+
+.btn__login:hover {
+  transform: scale(1.05);
+}
+
+.btn__started {
+  margin-left: 1rem;
+
+  background-color: var(--base-color);
+  color: #fff;
+
+  font-size: 0.875rem;
+  font-weight: 600;
+
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+
+  display: inline-block;
+  transition: 0.1s;
+}
+
+.btn__started:hover {
+  background-color: #602eb8;
+
+  transform: scale(1.07);
+}
+
+main {
+  display: flex;
+  align-items: center;
+
+  width: 1280px;
+  height: 416px;
+
+  margin-top: 4rem;
+}
+
+main .infos {
+  width: 736px;
+}
+
+main .infos h1 {
+  font-size: 3.75rem;
+  font-weight: 900;
+
+  margin-bottom: 1.5rem;
+
+  color: var(--text-color);
+
+  line-height: 60px;
+}
+
+main .infos p {
+  color: var(--text-color-parag);
+}
+
+main .infos .buttons {
+  margin-top: 2.5rem;
+}
+
+main .infos .buttons .btn__30day {
+  border: none;
+
+  background-color: var(--base-color);
+  color: #fff;
+
+  padding: 0.75rem 1.25rem;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+  border-radius: 0.5rem;
+
+  margin-right: 1rem;
+
+  cursor: pointer;
+
+  display: inline-block;
+  transition: 0.1s;
+}
+
+main .infos .buttons .btn__30day:hover {
+  transform: scale(1.05);
+}
+
+main .infos .buttons .btn__pricing {
+  background-color: rgb(242, 242, 242);
+
+  border: none;
+  border-radius: 0.5rem;
+
+  padding: 0.75rem 1.25rem;
+
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.1s;
+}
+
+main .infos .buttons .btn__pricing:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  margin-top: 2rem;
+}
